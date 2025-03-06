@@ -26,6 +26,9 @@ const Home = () => {
 
   return (
       <>
+          <div className={"relative"}>
+
+
       <div className="relative overflow-hidden bg-gradient-to-b from-emerald-900 to-emerald-800 min-h-screen flex items-center">
         {/* Animated forest particles */}
         <div className="absolute inset-0">
@@ -129,6 +132,7 @@ const Home = () => {
               className="absolute bottom-1/3 -left-32 w-96 h-96 bg-emerald-400 rounded-full filter blur-3xl opacity-20"></div>
       </div>
           <About/>
+          </div>
           <Numbers/>
       </>
   );

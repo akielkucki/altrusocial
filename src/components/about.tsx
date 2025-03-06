@@ -45,7 +45,7 @@ const ForestAbout = () => {
     };
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center py-24">
+        <section className="sticky top-0 min-h-screen flex items-center justify-center py-24">
             {/* Full-screen background image */}
             <div className="absolute inset-0 z-0">
                 <Image
