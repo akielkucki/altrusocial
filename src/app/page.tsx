@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import {ArrowRight, Leaf} from 'lucide-react';
 // import CountUp from 'react-countup'
 import About from "@/components/about";
+import Numbers from "@/components/numbers";
 
 const Home = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -128,6 +129,7 @@ const Home = () => {
               className="absolute bottom-1/3 -left-32 w-96 h-96 bg-emerald-400 rounded-full filter blur-3xl opacity-20"></div>
       </div>
           <About/>
+          <Numbers/>
       </>
   );
 };
