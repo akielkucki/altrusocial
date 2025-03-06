@@ -7,8 +7,8 @@ interface NumberItemProps {
     label: string;
 }
 const NumberItem = ({ number, label }: NumberItemProps) => {
-    let val = number.split("+")[0];
-    let num = parseInt(val);
+    const val = number.split("+")[0];
+    const num: number = parseInt(val);
     return (
         <motion.div
             className="bg-emerald-900/20 backdrop-blur-sm p-8 rounded-lg border border-emerald-800/30"
